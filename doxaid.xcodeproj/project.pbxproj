@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB59454F25DE772800B65C79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59454E25DE772800B65C79 /* AppDelegate.swift */; };
+		AB59455325DE772900B65C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB59455225DE772900B65C79 /* Assets.xcassets */; };
+		AB59455625DE772900B65C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB59455425DE772900B65C79 /* Main.storyboard */; };
+		AB59456225DE772900B65C79 /* doxaidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59456125DE772900B65C79 /* doxaidTests.swift */; };
+		AB59456D25DE772900B65C79 /* doxaidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59456C25DE772900B65C79 /* doxaidUITests.swift */; };
+		AB59457F25DE98A000B65C79 /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = AB59457E25DE98A000B65C79 /* HotKey */; };
+		AB59459425DEB0EC00B65C79 /* LayerImagePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59459325DEB0EC00B65C79 /* LayerImagePanel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB59455E25DE772900B65C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB59454325DE772800B65C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB59454A25DE772800B65C79;
+			remoteInfo = doxaid;
+		};
+		AB59456925DE772900B65C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB59454325DE772800B65C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB59454A25DE772800B65C79;
+			remoteInfo = doxaid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB59454B25DE772800B65C79 /* doxaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doxaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB59454E25DE772800B65C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB59455225DE772900B65C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB59455525DE772900B65C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB59455725DE772900B65C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB59455825DE772900B65C79 /* doxaid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = doxaid.entitlements; sourceTree = "<group>"; };
+		AB59455D25DE772900B65C79 /* doxaidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doxaidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB59456125DE772900B65C79 /* doxaidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doxaidTests.swift; sourceTree = "<group>"; };
+		AB59456325DE772900B65C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB59456825DE772900B65C79 /* doxaidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doxaidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB59456C25DE772900B65C79 /* doxaidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doxaidUITests.swift; sourceTree = "<group>"; };
+		AB59456E25DE772900B65C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB59459325DEB0EC00B65C79 /* LayerImagePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerImagePanel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB59454825DE772800B65C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB59457F25DE98A000B65C79 /* HotKey in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB59455A25DE772900B65C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB59456525DE772900B65C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB59454225DE772800B65C79 = {
+			isa = PBXGroup;
+			children = (
+				AB59454D25DE772800B65C79 /* doxaid */,
+				AB59456025DE772900B65C79 /* doxaidTests */,
+				AB59456B25DE772900B65C79 /* doxaidUITests */,
+				AB59454C25DE772800B65C79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB59454C25DE772800B65C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB59454B25DE772800B65C79 /* doxaid.app */,
+				AB59455D25DE772900B65C79 /* doxaidTests.xctest */,
+				AB59456825DE772900B65C79 /* doxaidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB59454D25DE772800B65C79 /* doxaid */ = {
+			isa = PBXGroup;
+			children = (
+				AB59454E25DE772800B65C79 /* AppDelegate.swift */,
+				AB59455225DE772900B65C79 /* Assets.xcassets */,
+				AB59455425DE772900B65C79 /* Main.storyboard */,
+				AB59455725DE772900B65C79 /* Info.plist */,
+				AB59455825DE772900B65C79 /* doxaid.entitlements */,
+				AB59459325DEB0EC00B65C79 /* LayerImagePanel.swift */,
+			);
+			path = doxaid;
+			sourceTree = "<group>";
+		};
+		AB59456025DE772900B65C79 /* doxaidTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB59456125DE772900B65C79 /* doxaidTests.swift */,
+				AB59456325DE772900B65C79 /* Info.plist */,
+			);
+			path = doxaidTests;
+			sourceTree = "<group>";
+		};
+		AB59456B25DE772900B65C79 /* doxaidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB59456C25DE772900B65C79 /* doxaidUITests.swift */,
+				AB59456E25DE772900B65C79 /* Info.plist */,
+			);
+			path = doxaidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB59454A25DE772800B65C79 /* doxaid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB59457125DE772900B65C79 /* Build configuration list for PBXNativeTarget "doxaid" */;
+			buildPhases = (
+				AB59454725DE772800B65C79 /* Sources */,
+				AB59454825DE772800B65C79 /* Frameworks */,
+				AB59454925DE772800B65C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doxaid;
+			packageProductDependencies = (
+				AB59457E25DE98A000B65C79 /* HotKey */,
+			);
+			productName = doxaid;
+			productReference = AB59454B25DE772800B65C79 /* doxaid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB59455C25DE772900B65C79 /* doxaidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB59457425DE772900B65C79 /* Build configuration list for PBXNativeTarget "doxaidTests" */;
+			buildPhases = (
+				AB59455925DE772900B65C79 /* Sources */,
+				AB59455A25DE772900B65C79 /* Frameworks */,
+				AB59455B25DE772900B65C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB59455F25DE772900B65C79 /* PBXTargetDependency */,
+			);
+			name = doxaidTests;
+			productName = doxaidTests;
+			productReference = AB59455D25DE772900B65C79 /* doxaidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB59456725DE772900B65C79 /* doxaidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB59457725DE772900B65C79 /* Build configuration list for PBXNativeTarget "doxaidUITests" */;
+			buildPhases = (
+				AB59456425DE772900B65C79 /* Sources */,
+				AB59456525DE772900B65C79 /* Frameworks */,
+				AB59456625DE772900B65C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB59456A25DE772900B65C79 /* PBXTargetDependency */,
+			);
+			name = doxaidUITests;
+			productName = doxaidUITests;
+			productReference = AB59456825DE772900B65C79 /* doxaidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB59454325DE772800B65C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AB59454A25DE772800B65C79 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AB59455C25DE772900B65C79 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AB59454A25DE772800B65C79;
+					};
+					AB59456725DE772900B65C79 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AB59454A25DE772800B65C79;
+					};
+				};
+			};
+			buildConfigurationList = AB59454625DE772800B65C79 /* Build configuration list for PBXProject "doxaid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB59454225DE772800B65C79;
+			packageReferences = (
+				AB59457D25DE98A000B65C79 /* XCRemoteSwiftPackageReference "HotKey" */,
+			);
+			productRefGroup = AB59454C25DE772800B65C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB59454A25DE772800B65C79 /* doxaid */,
+				AB59455C25DE772900B65C79 /* doxaidTests */,
+				AB59456725DE772900B65C79 /* doxaidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB59454925DE772800B65C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB59455325DE772900B65C79 /* Assets.xcassets in Resources */,
+				AB59455625DE772900B65C79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB59455B25DE772900B65C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB59456625DE772900B65C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB59454725DE772800B65C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB59459425DEB0EC00B65C79 /* LayerImagePanel.swift in Sources */,
+				AB59454F25DE772800B65C79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB59455925DE772900B65C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB59456225DE772900B65C79 /* doxaidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB59456425DE772900B65C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB59456D25DE772900B65C79 /* doxaidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB59455F25DE772900B65C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB59454A25DE772800B65C79 /* doxaid */;
+			targetProxy = AB59455E25DE772900B65C79 /* PBXContainerItemProxy */;
+		};
+		AB59456A25DE772900B65C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB59454A25DE772800B65C79 /* doxaid */;
+			targetProxy = AB59456925DE772900B65C79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB59455425DE772900B65C79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB59455525DE772900B65C79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB59456F25DE772900B65C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB59457025DE772900B65C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB59457225DE772900B65C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = doxaid/doxaid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = doxaid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stoneman.doxaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB59457325DE772900B65C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = doxaid/doxaid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = doxaid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stoneman.doxaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB59457525DE772900B65C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = doxaidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = stoneman.doxaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doxaid.app/Contents/MacOS/doxaid";
+			};
+			name = Debug;
+		};
+		AB59457625DE772900B65C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = doxaidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = stoneman.doxaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doxaid.app/Contents/MacOS/doxaid";
+			};
+			name = Release;
+		};
+		AB59457825DE772900B65C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = doxaidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stoneman.doxaidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = doxaid;
+			};
+			name = Debug;
+		};
+		AB59457925DE772900B65C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = doxaidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stoneman.doxaidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = doxaid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB59454625DE772800B65C79 /* Build configuration list for PBXProject "doxaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB59456F25DE772900B65C79 /* Debug */,
+				AB59457025DE772900B65C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB59457125DE772900B65C79 /* Build configuration list for PBXNativeTarget "doxaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB59457225DE772900B65C79 /* Debug */,
+				AB59457325DE772900B65C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB59457425DE772900B65C79 /* Build configuration list for PBXNativeTarget "doxaidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB59457525DE772900B65C79 /* Debug */,
+				AB59457625DE772900B65C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB59457725DE772900B65C79 /* Build configuration list for PBXNativeTarget "doxaidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB59457825DE772900B65C79 /* Debug */,
+				AB59457925DE772900B65C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB59457D25DE98A000B65C79 /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB59457E25DE98A000B65C79 /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB59457D25DE98A000B65C79 /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AB59454325DE772800B65C79 /* Project object */;
+}
