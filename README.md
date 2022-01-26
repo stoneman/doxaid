@@ -1,5 +1,6 @@
 ## Introduction
 
+
 An app which displays a layout map of the currently active layer on my Ergodox EZ keyboard.
 
 ## Usage
