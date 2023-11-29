@@ -5,6 +5,7 @@ An app which displays a layout map of the currently active layer on my Ergodox E
 ## Usage
 
 1. Open in Xcode
+1. In the `File` menu, select `Packages` -> `Resolve Package Versions`
 1. In the `Product` menu, select `Build For` -> `Running` 
 1. In the `Product` menu, select `Show Build Folder in Finder`
 1. In the finder window, copy `Products/Debug/doxaid.app` in to `Applications`
