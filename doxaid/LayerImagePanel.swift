@@ -19,8 +19,9 @@ class LayerImagePanel: NSPanel {
     
         self.isOpaque = false
         self.hasShadow = false
-        self.backgroundColor = NSColor.gray.withAlphaComponent(0.75)
+        self.backgroundColor = NSColor.gray.withAlphaComponent(1.0)
         self.titlebarAppearsTransparent = true
+        self.animationBehavior = .none
         
         self.contentView = layerImage
       }
